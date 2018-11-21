@@ -55,8 +55,8 @@
         <fullName>AverageSalary__c</fullName>
         <externalId>false</externalId>
         <label>AverageSalary</label>
-        <summarizedField>Employeer__c.Salary__c</summarizedField>
-        <summaryForeignKey>Employeer__c.Department__c</summaryForeignKey>
+        <summarizedField>Employee__c.Salary__c</summarizedField>
+        <summaryForeignKey>Employee__c.Department__c</summaryForeignKey>
         <summaryOperation>sum</summaryOperation>
         <trackTrending>false</trackTrending>
         <type>Summary</type>
@@ -78,7 +78,7 @@
         <fullName>Count_Emploee__c</fullName>
         <externalId>false</externalId>
         <label>Count Emploee</label>
-        <summaryForeignKey>Employeer__c.Department__c</summaryForeignKey>
+        <summaryForeignKey>Employee__c.Department__c</summaryForeignKey>
         <summaryOperation>count</summaryOperation>
         <trackTrending>false</trackTrending>
         <type>Summary</type>
@@ -98,8 +98,8 @@
         <fullName>MaxSalary__c</fullName>
         <externalId>false</externalId>
         <label>MaxSalary</label>
-        <summarizedField>Employeer__c.Salary__c</summarizedField>
-        <summaryForeignKey>Employeer__c.Department__c</summaryForeignKey>
+        <summarizedField>Employee__c.Salary__c</summarizedField>
+        <summaryForeignKey>Employee__c.Department__c</summaryForeignKey>
         <summaryOperation>max</summaryOperation>
         <trackTrending>false</trackTrending>
         <type>Summary</type>
@@ -108,8 +108,8 @@
         <fullName>MinSalary__c</fullName>
         <externalId>false</externalId>
         <label>MinSalary</label>
-        <summarizedField>Employeer__c.Salary__c</summarizedField>
-        <summaryForeignKey>Employeer__c.Department__c</summaryForeignKey>
+        <summarizedField>Employee__c.Salary__c</summarizedField>
+        <summaryForeignKey>Employee__c.Department__c</summaryForeignKey>
         <summaryOperation>min</summaryOperation>
         <trackTrending>false</trackTrending>
         <type>Summary</type>
